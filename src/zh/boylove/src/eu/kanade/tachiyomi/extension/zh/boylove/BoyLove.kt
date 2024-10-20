@@ -207,9 +207,7 @@ class BoyLove : HttpSource(), ConfigurableSource {
 
         // redirect URL: https://fuhouse.club/bl
         // link source URL: https://boylovepage.github.io/boylove_page
-        // "boylove1.mobi", "boylove3.cc", "boyloves.space", "boyloves.fun", "boylove.today", "fuzai.one", "xxfuzai.xyz", "fuzai.cc"
         private val MIRRORS get() = arrayOf("fufun.cloud", "fufun.club", "boylove.cc", "boylove4.xyz")
-        // "boylove1.mobi", "boylove3.cc", "boyloves.space", "boyloves.fun", "boylove.today", "fuzai.one", "xxfuzai.xyz", "fuzai.cc（非大陆）"
         private val MIRRORS_DESC get() = arrayOf("fufun.cloud", "fufun.club", "boylove.cc（非大陆）", "boylove4.xyz")
     }
 }
